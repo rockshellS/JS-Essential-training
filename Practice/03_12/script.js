@@ -6,3 +6,18 @@
  * - Create several objects using the class.
  * - Test the objecs by calling their properties and using their methods in the console.
  */
+import Car from "./Car.js";
+const truck = new Car(
+    "blue",
+    4, 
+    2, 
+    "no",
+    "yes"
+);
+
+
+
+
+console.log("truck object:", truck);
+console.log("truck object:", truck.color)
+

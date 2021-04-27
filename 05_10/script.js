@@ -59,4 +59,22 @@ newArticle.classList.add("backpack");
 newArticle.setAttribute("id", "everyday");
 newArticle.innerHTML = content;
 
+
 main.append(newArticle);
+
+
+const navContent = `
+<li><a herf="#">Home</a></li>
+<li><a herf="#">About</a></li>
+<li><a herf="#">Backpacks</a></li>
+<li><a herf="#">Other</a></li>
+<li><a herf="#">Contact</a></li>
+`;
+
+const mainNav = document.createElement("nav")
+mainNav.classList.add("main-navigaton")
+const navList = document.createElement("ul")
+navList.innerHTML = navContent
+mainNav.append(navList)
+
+document.querySelector(".siteheader").append(mainNav)

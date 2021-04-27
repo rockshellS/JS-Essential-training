@@ -21,4 +21,4 @@ const backpack = {
   },
 };
 
-console.log("The backpack object:", backpack);
+console.log("Strap length L:", backpack.strapLength.left);
