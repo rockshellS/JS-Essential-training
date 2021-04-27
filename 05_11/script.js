@@ -8,6 +8,8 @@
  * - A tip: Use either display flex or display grid to create the horizontal menu.
  */
 
+
+// testing coment
 import Backpack from "./Backpack.js";
 
 const everydayPack = new Backpack(
