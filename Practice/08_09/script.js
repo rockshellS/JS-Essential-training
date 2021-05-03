@@ -57,3 +57,24 @@ const content = `
       }</span></li>
     </ul>  
 `;
+
+const addFigure = (dataObj) => {
+  let newFigure = document.createElement('figure')
+  let newImg = document.createElement('img')
+  newImg.setAttribute("src", dataObj.image)
+  newImg.setAttribute('alt', "")
+  let newDesc.innerText = document.createElement('figcaption')
+  newDesc.innerHTML = dataObj
+
+
+}
+
+
+const newArticle = (frogpack) => {
+  let createArticle = document.createElement("article")
+  createArticle.innerHTML = content
+  createArticle.prepend(addFigure(frogpack))
+  return createArticle
+}
+
+document.querySelector("main").append(newArticle(frogpack))
