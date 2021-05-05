@@ -16,7 +16,7 @@
 const frogpack = {
   name: "Frog Backpack",
   volume: 8,
-  color: "green",
+  color: "blue",
   pocketNum: 3,
   strapLength: {
     left: 10,
@@ -62,9 +62,11 @@ const addFigure = (dataObj) => {
   let newFigure = document.createElement('figure')
   let newImg = document.createElement('img')
   newImg.setAttribute("src", dataObj.image)
-  newImg.setAttribute('alt', "")
-  let newDesc.innerText = document.createElement('figcaption')
-  newDesc.innerHTML = dataObj
+  newImg.setAttribute('alt', "frog")
+  let newDesc  = document.createElement('figcaption')
+  newDesc.innerText = dataObj.description
+  newFigure.append(newImg, newDesc)
+  return newFigure
 
 
 }
