@@ -56,7 +56,7 @@ main.append(newArticle);
 
 const usedStatus = () => {
   let age = everydayPack.backpackAge();
-  age = 2000
+  age = 10
   let description;
   
   switch (true) {
