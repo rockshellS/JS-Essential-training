@@ -33,3 +33,6 @@ Check out my other courses on [LinkedIn Learning](https://www.linkedin.com/learn
 
 [lil-course-url]: https://www.linkedin.com/learning/javascript-essential-training
 [lil-thumbnail-url]: https://cdn.lynda.com/course/2832077/2832077-1610728160487-16x9.jpg
+
+
+// need to figure out how to create a new git repo.  how do i clone the master class?
